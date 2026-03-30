@@ -1,36 +1,35 @@
 # practica
 practica riwi
 
-#Sistema de Registro de Estudiantes (CRUD)
-Este es un programa en Python diseñado para gestionar el registro de alumnos de forma eficiente. El sistema permite realizar las operaciones básicas de un CRUD (Crear, Leer, Actualizar y Eliminar) interactuando con archivos JSON para la persistencia de datos.
-# Características
-El programa cuenta con las siguientes funcionalidades principales:
+#Student Registration System (CRUD)
+This is a Python program designed to efficiently manage student registration. The system performs basic CRUD operations (Create, Read, Update, and Delete) by interacting with JSON files for data persistence.
+# Features
+The program includes the following main functionalities:
 
-    Registro Dinámico: Permite dar de alta a múltiples estudiantes capturando ID, nombre, edad, curso y estado.
-    Consulta General: Muestra una lista detallada de todos los alumnos registrados.
-    Búsqueda Específica: Localiza a un estudiante rápidamente mediante su número de identificación (ID).
-    Actualización de Datos: Permite modificar el estado, curso y edad de un alumno existente.
-    Eliminación de Registros: Borra estudiantes del sistema de forma permanente.
-    Persistencia de Datos: Los cambios se guardan automáticamente en un archivo local a través de un módulo de gestión de archivos (crud.py).
+    Dynamic Registration: Register multiple students by capturing their ID, name, age, course, and status.
+    General Inquiry: Displays a detailed list of all currently registered students.
+    Specific Search: Quickly locates a student using their unique identification number (ID).
+    Data Update: Allows modifying the status, course, and age of an existing student.
+    Record Deletion: Permanently removes students from the system.
+    Data Persistence: Changes are automatically saved to a local file through a file management module (crud.py).
 
-# Estructura del Código
-El proyecto está organizado en funciones modulares para facilitar su mantenimiento:
+# Code Structure
+The project is organized into modular functions to facilitate maintenance:
 
-    register_students(): Gestiona la entrada de nuevos datos.
-    show_student_list(): Formatea y muestra la información en pantalla.
-    search_students(): Implementa la lógica de filtrado por ID.
-    update_student(): Permite la edición de campos críticos del estudiante.
-    delete_student(): Maneja la lógica de remoción de elementos de la lista.
+    register_students(): Manages the input of new data.
+    show_student_list(): Formats and displays student information on the screen.
+    search_students(): Implements the filtering logic by ID.
+    update_student(): Enables editing of critical student fields.
+    delete_student(): Handles the logic for removing elements from the list.
 
-# Requisitos
+# Requirements
 
     Python 3.x
-    Módulo recyclable_functions: Utilizado para la validación de entradas numéricas.
-    Módulo crud: Utilizado para el guardado y carga de datos en formato JSON.
+    recyclable_functions module: Used for numeric input validation.
+    crud module: Used for saving and loading data in JSON format.
 
-# Ejemplo de Uso
-Al ejecutar el programa, podrás interactuar con el panel de registro:
-
+# Usage Example
+Upon running the program, you can interact with the registration panel:
 text
 
 ---REGISTRATION PANEL---
